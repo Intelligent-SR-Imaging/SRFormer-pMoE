@@ -6,9 +6,9 @@ This is a repository of the source codes for paper [*Lattice light sheet activat
 * ✨ [Method](#Method-Overview)
 * ⚙️ [Environment](#Environment)
 * 📦 [Demo Data&Pretrained Model](#Demo-Data&Pretrained-Model)
-* 💡 [Quick Start](#Quick Start)
+* 💡 [Quick Start](#Quickstart)
 * 🔰 [Training](#Training)
-* 📊  [Results](#Results)
+* 📊 [Results](#Results)
 <!-- TOC -->
 
 <br><br>
@@ -61,7 +61,7 @@ If you want to run the Demo Case in our source code of SRFormer, please load thi
 ```
 
 <br><br>
-<h1 id="Quick start">💡 Quick start</h1>
+<h1 id="Quickstart">💡 Quick start</h1>
 
 The inference script automatically processes all testing data:
 `data/*LLSM.tif`:
