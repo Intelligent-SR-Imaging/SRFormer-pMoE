@@ -1,5 +1,5 @@
 # **SRFormer-pMoE: a 3-D Image SR Backbone Network**
-This is a repository of the source codes for paper [*Lattice light sheet activation structured illumination volumetric super-resolution live microscopy*]().
+This is a repository of the source codes for paper [*Lattice light sheet activation structured illumination super-resolution microscopy*]().
 
 
 <!-- TOC -->
@@ -50,13 +50,13 @@ pip install -r ./requirements.txt
 <br><br>
 <h1 id="Demo-Data&Pretrained-Model">📦 Demo Data&Pretrained Model</h1>
 
-We have provided __Demo Data__ and __Pretrained Model__ at [Zenodo](https://doi.org/10.5281/zenodo.14609279). 
-You can load __Demo Data__ and __Pretrained Model__ from our [Zenodo Dashboard](https://doi.org/10.5281/zenodo.14609279) and save them follow the notes.
+We have provided __Demo Data__ and __Pretrained Model__ at [Zenodo](https://doi.org/10.5281/zenodo.22054769). 
+You can load __Demo Data__ and __Pretrained Model__ from our [Zenodo Dashboard](https://doi.org/10.5281/zenodo.22054769) and save them follow the notes.
 ```
-a. pretrained_model.zip
+a. pretrained_SRFormer_pMoE.zip
 If you want to run the Demo Case in our source code of SRFormer, please load this file and save it under `./pretrained_model/`.
 
-b. Demo_Data_for_SRFormer.zip
+b. testing_data_for_SRFormer_pMoE.rar
 If you want to run the Demo Case in our source code of SRFormer, please load this data and save it under `./data/`.
 ```
 
@@ -66,7 +66,7 @@ If you want to run the Demo Case in our source code of SRFormer, please load thi
 The inference script automatically processes all testing data:
 `data/*LLSM.tif`:
 
-```shell
+```bash
 python test_SRFormer_pMoE.py
 ```
 
@@ -121,7 +121,7 @@ Review and update at least the following settings in
 
 Then run:
 
-```shell
+```bash
 python train_SRFormer_pMoE.py
 ```
 
